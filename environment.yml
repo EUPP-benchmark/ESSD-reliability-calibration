@@ -1,0 +1,39 @@
+# Use this file to create a conda environment using:
+# conda env create --file environment.yml
+# This environment is a cut-down version of environments used
+# within the improver repo: https://github.com/metoppv/improver
+# with improver, xarray, ipykernel and jupyterlab included.
+
+name: ESSD-reliability-calibration
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  # Required
+  - cartopy=0.19
+  - cftime=1.2.1
+  - cf-units=2.1.5
+  - clize=4.1.1
+  - dask=2021.8.1
+  - iris=3.0.3
+  - improver=1.3.4
+  - netCDF4=1.4.1
+  - numpy=1.20.2
+  - pandas=1.2.4
+  - pytz=2020.5
+  - scipy=1.6.2
+  - sigtools=2.0.2
+  - xarray=0.20.2
+  # Optional
+  - numba=0.53.1
+  # Development
+  - astroid
+  - bandit
+  - black=19.10b0
+  - click=8.0.2
+  - filelock
+  - flake8
+  - isort=5.7.0
+  - mypy
+  - ipykernel
+  - jupyterlab
