@@ -28,7 +28,10 @@ Flowerdew, J., 2014: Calibrating ensemble reliability whilst preserving spatial 
 
 
 ## Technical details
-To run the code, first clone the repository:
+
+First, if you do not have it, get the ESSD benchmark dataset using [the download script](https://github.com/EUPP-benchmark/ESSD-benchmark-datasets). This will fetch the dataset into NetCDF files on your disk.
+
+Then, to run the code, first clone the repository:
 
 ```
 git clone https://github.com/EUPP-benchmark/ESSD-reliability-calibration
