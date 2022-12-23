@@ -1,5 +1,13 @@
 # ESSD-reliability-calibration
 
+Reliability Calibration (RC) scripts for the ESSD benchmark. Provide the MBM output file (see the method's details below).
+
+This code is provided as supplementary material with:
+
+* ...: The EUPPBench postprocessing benchmark dataset v1.0, ...
+
+**Please cite this article if you use (a part of) this code for a publication.**
+
 ## Methodology
 
 This approach for calibrating ECMWF forecasts using a 20-year reforecast dataset uses multiple complementary steps to improve the forecast skill. For the bias correction and Reliability Calibration steps described below, each month is processed separately so, for example, the calibration of January using the bias correction and Reliability Calibration steps only uses information from January within the training dataset to calibrate January within the test dataset.
