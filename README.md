@@ -1,6 +1,6 @@
 # ESSD-reliability-calibration
 
-Reliability Calibration (RC) scripts for the ESSD benchmark. Provide the MBM output file (see the method's details below).
+Reliability Calibration (RC) scripts for the ESSD benchmark. The methodology and technical details for Reliability Calibration are provided below.
 
 This code is provided as supplementary material with:
 
