@@ -27,13 +27,14 @@ Using the IMPROVER codebase (https://github.com/metoppv/improver), reliability t
 2.	If there is non-monotonicity with observation frequency, combining an additional bin pair.
 3.	If non-monotonicity with observation frequency remains, assuming a constant observation frequency for any portion of the reliability diagram that is still non-monotonic.
 
-This procedure will be described in more detail in a separate publication.
+This procedure is described in more detail in Rust et al., 2023: https://rmets.onlinelibrary.wiley.com/doi/10.1002/met.2142.
 
 The reliability tables are then applied to each forecast for calibration. The input forecast probability for the current forecast is replaced by the observation frequency given by linearly interpolation. This ensures that even though the reliability table has a discrete number of bins of forecast probability, any value of observation frequency can potentially be produced. As the exceedance probabilities at each threshold are calibrated separately, the calibrated probabilities could be non-monotonic as a function of threshold. As a final step, monotonicity of the calibrated probabilities across thresholds is enforced.
 
 #### Reference
 Flowerdew, J., 2014: Calibrating ensemble reliability whilst preserving spatial structure. Tellus A Dyn. Meteorol. Oceanogr., 66, 22662, https://doi.org/10.3402/tellusa.v66.22662.
 
+Rust, F. M., Evans, G. R., & Ayliffe, B. A. (2023). Improving the blend of multiple weather forecast sources by Reliability Calibration. Meteorological Applications, 30( 4), e2142. https://doi.org/10.1002/met.2142
 
 ## Technical details
 
